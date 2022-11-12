@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "80873862516e377900698462fc478aad",
+    "content-hash": "f89cff12bc153328909a7a0016d75bce",
     "packages": [
         {
             "name": "composer/ca-bundle",
@@ -1392,16 +1392,16 @@
         },
         {
             "name": "liquiddesign/lqgraphi",
-            "version": "v0.0.26",
+            "version": "v0.0.29",
             "source": {
                 "type": "git",
                 "url": "https://github.com/liquiddesign/lqgraphi.git",
-                "reference": "0ba00cc1ce5728b2f809985e5ec97029ea99d5a4"
+                "reference": "249400cc2d3f5a337a1c622fcf0ac49658ee6ada"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/liquiddesign/lqgraphi/zipball/0ba00cc1ce5728b2f809985e5ec97029ea99d5a4",
-                "reference": "0ba00cc1ce5728b2f809985e5ec97029ea99d5a4",
+                "url": "https://api.github.com/repos/liquiddesign/lqgraphi/zipball/249400cc2d3f5a337a1c622fcf0ac49658ee6ada",
+                "reference": "249400cc2d3f5a337a1c622fcf0ac49658ee6ada",
                 "shasum": ""
             },
             "require": {
@@ -1438,9 +1438,9 @@
             "description": "GraphQL API library for Liquid Design ecosystem",
             "support": {
                 "issues": "https://github.com/liquiddesign/lqgraphi/issues",
-                "source": "https://github.com/liquiddesign/lqgraphi/tree/v0.0.26"
+                "source": "https://github.com/liquiddesign/lqgraphi/tree/v0.0.29"
             },
-            "time": "2022-11-12T10:51:55+00:00"
+            "time": "2022-11-12T11:20:17+00:00"
         },
         {
             "name": "liquiddesign/migrator",
