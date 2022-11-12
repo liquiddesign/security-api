@@ -6,7 +6,7 @@
 
 declare(strict_types=1);
 
-namespace SecurityApi\Schema\Resolvers;
+namespace SecurityApi\Resolvers;
 
 class PermissionResolver extends \LqGrAphi\Resolvers\CrudResolver
 {
