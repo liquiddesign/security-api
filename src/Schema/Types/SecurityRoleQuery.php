@@ -2,10 +2,10 @@
 
 namespace SecurityApi\Schema\Types;
 
-use LqGrAphi\Schema\CrudMutation;
+use LqGrAphi\Schema\CrudQuery;
 use Security\DB\Role;
 
-class RoleMutation extends CrudMutation
+class SecurityRoleQuery extends CrudQuery
 {
 	public function getClass(): string
 	{

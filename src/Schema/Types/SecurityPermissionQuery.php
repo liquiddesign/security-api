@@ -8,7 +8,7 @@ declare(strict_types=1);
 
 namespace SecurityApi\Schema\Types;
 
-class PermissionQuery extends \LqGrAphi\Schema\CrudQuery
+class SecurityPermissionQuery extends \LqGrAphi\Schema\CrudQuery
 {
 	public function getClass(): string
 	{

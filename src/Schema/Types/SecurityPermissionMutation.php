@@ -6,9 +6,9 @@
 
 declare(strict_types=1);
 
-namespace SecurityApi\Resolvers;
+namespace SecurityApi\Schema\Types;
 
-class PermissionResolver extends \LqGrAphi\Resolvers\CrudResolver
+class SecurityPermissionMutation extends \LqGrAphi\Schema\CrudMutation
 {
 	public function getClass(): string
 	{

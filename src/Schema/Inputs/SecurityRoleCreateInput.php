@@ -6,7 +6,7 @@ use LqGrAphi\Schema\BaseInput;
 use LqGrAphi\Schema\TypeRegister;
 use Security\DB\Role;
 
-class RoleCreateInput extends BaseInput
+class SecurityRoleCreateInput extends BaseInput
 {
 	public function __construct(TypeRegister $typeRegister)
 	{

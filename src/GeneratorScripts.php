@@ -11,8 +11,8 @@ class GeneratorScripts extends \LqGrAphi\GeneratorScripts
 	public static function generate(\Composer\Script\Event $event): void
 	{
 		$types = [
-			'permission' => Permission::class,
-			'role' => Role::class,
+			'securityPermission' => Permission::class,
+			'securityRole' => Role::class,
 			'account' => Account::class,
 		];
 

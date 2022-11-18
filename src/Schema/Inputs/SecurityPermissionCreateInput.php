@@ -8,12 +8,12 @@ declare(strict_types=1);
 
 namespace SecurityApi\Schema\Inputs;
 
-class PermissionUpdateInput extends \LqGrAphi\Schema\BaseInput
+class SecurityPermissionCreateInput extends \LqGrAphi\Schema\BaseInput
 {
 	public function __construct(\LqGrAphi\Schema\TypeRegister $typeRegister)
 	{
 		parent::__construct([
-			'fields' => $typeRegister->createCrudUpdateInputFieldsFromClass(\Security\DB\Permission::class),
+			'fields' => $typeRegister->createCrudCreateInputFieldsFromClass(\Security\DB\Permission::class),
 		]);
 	}
 }

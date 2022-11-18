@@ -5,7 +5,7 @@ namespace SecurityApi\Resolvers;
 use LqGrAphi\Resolvers\CrudResolver;
 use Security\DB\Role;
 
-class RoleResolver extends CrudResolver
+class SecurityRoleResolver extends CrudResolver
 {
 	public function getClass(): string
 	{
