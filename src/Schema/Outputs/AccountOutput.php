@@ -13,7 +13,7 @@ class AccountOutput extends \LqGrAphi\Schema\BaseOutput implements \LqGrAphi\Sch
 	public function __construct(\LqGrAphi\Schema\TypeRegister $typeRegister)
 	{
 		parent::__construct([
-			'fields' => $typeRegister->createOutputFieldsFromClass(\Security\DB\Account::class),
+			'fields' => $typeRegister->createOutputFieldsFromClass(\Security\DB\Account::class, exclude: ['password']),
 		]);
 	}
 
