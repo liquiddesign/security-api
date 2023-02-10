@@ -6,7 +6,7 @@
   "require": {
     "php": ">=8.1",
     "liquiddesign/security": "~1.0.13",
-    "liquiddesign/lqgraphi": "~0.2.0",
+    "liquiddesign/lqgraphi": "^0.2",
     "ext-intl": "*",
     "ext-pdo": "*",
     "ext-curl": "*",
