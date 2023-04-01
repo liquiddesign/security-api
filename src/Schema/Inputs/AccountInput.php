@@ -16,6 +16,7 @@ class AccountInput extends BaseInput implements ClassInput
 			'fields' => $typeRegister->createRelationInputFieldsFromClass(Account::class, forceOptional: [BaseType::ID_NAME], includeId: true),
 		]);
 	}
+
 	public static function getClass(): string
 	{
 		return Account::class;

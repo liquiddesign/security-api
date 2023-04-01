@@ -14,4 +14,14 @@ class SecurityPermissionMutation extends \LqGrAphi\Schema\CrudMutation
 	{
 		return \Security\DB\Permission::class;
 	}
+
+	public function getCreateInputName(): string
+	{
+		return 'SecurityPermissionCreateInput';
+	}
+
+	public function getUpdateInputName(): string
+	{
+		return 'SecurityPermissionUpdateInput';
+	}
 }

@@ -11,4 +11,14 @@ class AccountMutation extends CrudMutation
 	{
 		return Account::class;
 	}
+
+	public function getCreateInputName(): string
+	{
+		return 'AccountCreateInput';
+	}
+
+	public function getUpdateInputName(): string
+	{
+		return 'AccountUpdateInput';
+	}
 }

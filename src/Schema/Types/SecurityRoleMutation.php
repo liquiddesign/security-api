@@ -11,4 +11,14 @@ class SecurityRoleMutation extends CrudMutation
 	{
 		return Role::class;
 	}
+
+	public function getCreateInputName(): string
+	{
+		return 'SecurityRoleCreateInput';
+	}
+
+	public function getUpdateInputName(): string
+	{
+		return 'SecurityRoleUpdateInput';
+	}
 }
