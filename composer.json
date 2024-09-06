@@ -4,19 +4,17 @@
   "type": "project",
   "license": "MIT",
   "require": {
-    "php": ">=8.1",
-    "liquiddesign/security": "~1.0.13",
-    "liquiddesign/lqgraphi": "^1.0",
+    "php": ">=8.2",
+    "liquiddesign/security": "~2.0",
+    "liquiddesign/lqgraphi": "^2.0",
     "ext-intl": "*",
     "ext-pdo": "*",
     "ext-curl": "*",
     "ext-json": "*"
   },
   "require-dev": {
-    "nette/tester": "^2.4",
     "phpstan/phpstan-nette": "^1.0",
-    "squizlabs/php_codesniffer": "~3.7",
-    "slevomat/coding-standard": "~8.2",
+    "liquiddesign/codestyle": "^3.0",
     "nette/php-generator": "^4.0"
   },
   "minimum-stability": "stable",
