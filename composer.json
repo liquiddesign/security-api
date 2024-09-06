@@ -5,8 +5,8 @@
   "license": "MIT",
   "require": {
     "php": ">=8.2",
-    "liquiddesign/security": "~2.0",
-    "liquiddesign/lqgraphi": "^2.0",
+    "liquiddesign/security": "^2.0",
+    "liquiddesign/lqgraphi": "^2.0.1",
     "ext-intl": "*",
     "ext-pdo": "*",
     "ext-curl": "*",
@@ -15,7 +15,7 @@
   "require-dev": {
     "phpstan/phpstan-nette": "^1.0",
     "liquiddesign/codestyle": "^3.0",
-    "nette/php-generator": "^4.0"
+    "nette/php-generator": "^4.1"
   },
   "minimum-stability": "stable",
   "prefer-stable": true,
